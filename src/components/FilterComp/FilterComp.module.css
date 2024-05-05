@@ -1,0 +1,11 @@
+.container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 5px;
+    margin-bottom: 2rem;
+}
+.container div {
+    /* width: ; */
+}

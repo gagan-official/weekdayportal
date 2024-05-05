@@ -1,0 +1,56 @@
+.cardCont.cardCont1 {
+    border-radius: 20px;
+    max-height: 590px;
+    transition: .3s;
+    transition-property: box-shadow, scale;
+}
+.cardCont.cardCont1:hover {
+    scale: 1.01;
+    box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.093), 0px 2px 2px 1px rgba(0, 0, 0, 0.025), 0px 3px 4px 1px rgba(0, 0, 0, 0.071);
+}
+.cardCont.cardCont1:active {
+    scale: 1;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+/* .cardContButton { */
+.cardCont.cardCont1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+.companyCont {
+    display: flex;
+    gap: 1rem;
+}
+.postedCont {
+    font-size: 10px;
+    padding: 5px 8px;
+    border-radius: 99px;
+    box-shadow: rgba(6, 6, 6, 0.05) 0px 2px 6px 0px;
+    border: 1px solid rgb(230, 230, 230);
+    width: fit-content;
+}
+
+.textButtonCont {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem 0 1rem;
+    background: linear-gradient(#0000, #ffffffa0 10%, #fff);
+    display: flex;
+    justify-content: center;
+}
+
+.cardCont .applyButton {
+    background-color: #55efc4;
+    width: 100%;
+    text-transform: capitalize;
+    font-family: inherit;
+    border-radius: 8px;
+    padding: .5rem 1rem;
+}
+.cardCont .applyButton:hover {
+    background-color: #3fd4aa;
+}

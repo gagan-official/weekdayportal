@@ -1,0 +1,7 @@
+.loader.circular {
+    color: #55efc4;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    translate: -50%;
+}
